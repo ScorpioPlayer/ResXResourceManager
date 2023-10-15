@@ -123,6 +123,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResXManager.VSIX.Compatibil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ResXManager.VSIX.Compatibility.arm64", "ResXManager.VSIX.Compatibility.arm64\ResXManager.VSIX.Compatibility.arm64.csproj", "{07C243CC-4EBA-4DF4-B88D-76D2D8EDE9A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AITranslator", "AITranslator\AITranslator.csproj", "{F8F43938-71C1-43EE-ADBD-1F0BB8D69FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AITranslatorAPI", "AITranslatorAPI\AITranslatorAPI.csproj", "{58A5FBC8-808E-4615-9080-B7775370CF6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +183,14 @@ Global
 		{07C243CC-4EBA-4DF4-B88D-76D2D8EDE9A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C243CC-4EBA-4DF4-B88D-76D2D8EDE9A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07C243CC-4EBA-4DF4-B88D-76D2D8EDE9A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8F43938-71C1-43EE-ADBD-1F0BB8D69FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F43938-71C1-43EE-ADBD-1F0BB8D69FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F43938-71C1-43EE-ADBD-1F0BB8D69FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F43938-71C1-43EE-ADBD-1F0BB8D69FB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58A5FBC8-808E-4615-9080-B7775370CF6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58A5FBC8-808E-4615-9080-B7775370CF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58A5FBC8-808E-4615-9080-B7775370CF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58A5FBC8-808E-4615-9080-B7775370CF6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
