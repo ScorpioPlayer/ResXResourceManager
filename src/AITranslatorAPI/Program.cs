@@ -39,7 +39,7 @@ app.MapPost("api/aitranslator/translate", async (TranslateRequest req) =>
     var result = await AITranslator.AITranslator.TranslateAsync(req.Texts, req.Target, req.Source);
     if (result != null && result.Length == 1)
     {
-        return Results.Ok(result.FirstOrDefault());
+        return Results.Ok(result);
 
     }
     return Results.BadRequest("unable to translate");
