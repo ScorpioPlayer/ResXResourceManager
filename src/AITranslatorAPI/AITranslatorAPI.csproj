@@ -4,11 +4,15 @@
     <TargetFramework>net7.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/29042fd7-62f1-4ab2-a569-5c26b2b8767c/resourceGroups/g_aitranslator/providers/microsoft.insights/components/ai_aitranslator</ApplicationInsightsResourceId>
+    <UserSecretsId>c0a4d96d-6e54-4049-ab68-3c416f0ff615</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.11" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
   </ItemGroup>
 
   <ItemGroup>
